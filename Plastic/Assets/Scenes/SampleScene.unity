@@ -485,6 +485,7 @@ GameObject:
   - component: {fileID: 965511471}
   - component: {fileID: 965511470}
   - component: {fileID: 965511472}
+  - component: {fileID: 965511473}
   m_Layer: 0
   m_Name: MahiMahi
   m_TagString: Untagged
@@ -571,6 +572,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &965511473
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965511469}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.31999996, y: 0.31999996, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1060833118
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +596,7 @@ GameObject:
   - component: {fileID: 1060833120}
   - component: {fileID: 1060833119}
   - component: {fileID: 1060833121}
+  - component: {fileID: 1060833122}
   m_Layer: 0
   m_Name: Snapper
   m_TagString: Untagged
@@ -668,6 +683,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1060833122
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060833118}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1247946280
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,6 +788,7 @@ GameObject:
   - component: {fileID: 1262621308}
   - component: {fileID: 1262621311}
   - component: {fileID: 1262621310}
+  - component: {fileID: 1262621312}
   m_Layer: 0
   m_Name: Grouper
   m_TagString: Untagged
@@ -859,6 +888,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1262621312
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262621307}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1372272315
 GameObject:
   m_ObjectHideFlags: 0
@@ -870,6 +912,7 @@ GameObject:
   - component: {fileID: 1372272317}
   - component: {fileID: 1372272316}
   - component: {fileID: 1372272318}
+  - component: {fileID: 1372272319}
   m_Layer: 0
   m_Name: Salmon
   m_TagString: Untagged
@@ -956,6 +999,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1372272319
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372272315}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.31999996, y: 0.32, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1475094323
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,6 +1023,7 @@ GameObject:
   - component: {fileID: 1475094325}
   - component: {fileID: 1475094324}
   - component: {fileID: 1475094326}
+  - component: {fileID: 1475094327}
   m_Layer: 0
   m_Name: Mullet
   m_TagString: Untagged
@@ -1053,6 +1110,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1475094327
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475094323}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.31999996, y: 0.32, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1830729186
 GameObject:
   m_ObjectHideFlags: 0
