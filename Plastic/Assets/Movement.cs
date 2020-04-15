@@ -9,12 +9,12 @@ public class Movement : MonoBehaviour
     {
         Rigidbody rb = GetComponent<Rigidbody>();
         if (Input.GetKey(KeyCode.A))
-            rb.AddForce((Vector3.left*speed*Time.deltaTime));
+            rb.AddForce((Vector3.left * speed * Time.deltaTime));
         if (Input.GetKey(KeyCode.D))
-            rb.AddForce(Vector3.right*speed*Time.deltaTime);
+            rb.AddForce(Vector3.right * speed * Time.deltaTime);
         if (Input.GetKey(KeyCode.W))
-            rb.AddForce(Vector3.up*speed*Time.deltaTime);
+            rb.AddForce(Vector3.up * speed * Time.deltaTime);
         if (Input.GetKey(KeyCode.S))
-            rb.AddForce(Vector3.down*speed*Time.deltaTime);
+            rb.AddForce(Vector3.down * speed * Time.deltaTime);
     }
 }

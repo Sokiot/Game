@@ -23,11 +23,11 @@ public class FishController : MonoBehaviour
         rb.AddForce(movement * speed);
     }
 
-    void OnTriggerEnter(Collider other)
+    /*void OnTriggerEnter(Collider other) //fish pickup
     {
-        if (other.gameObject.CompareTag("Pick Up"))
+        if (other.gameObject.CompareTag("Pick Up")) //change this shit pls
         {
             other.gameObject.SetActive(false);
         }
-    }
+    }*/
 }
