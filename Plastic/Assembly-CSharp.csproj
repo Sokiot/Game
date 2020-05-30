@@ -67,7 +67,6 @@
     <Compile Include="Assets\FishPickup.cs" />
     <Compile Include="Assets\Health.cs" />
     <Compile Include="Assets\HealthController.cs" />
-    <Compile Include="Assets\LivesScript.cs" />
     <Compile Include="Assets\Movement.cs" />
     <Compile Include="Assets\Pickup.cs" />
     <Compile Include="Assets\PlayerManager.cs" />
@@ -75,6 +74,8 @@
     <Compile Include="Assets\ProgressBar\Scene\Demo.cs" />
     <Compile Include="Assets\ProgressBar\Script\ProgressBar.cs" />
     <Compile Include="Assets\ProgressBar\Script\ProgressBarCircle.cs" />
+    <Compile Include="Assets\RandomDamage.cs" />
+    <Compile Include="Assets\SpawnFish.cs" />
     <Compile Include="Assets\UnderwaterFantasy\Scripts\Done_BGScroller.cs" />
     <Compile Include="Assets\UnderwaterFantasy\Scripts\Perspective2DSortMode.cs" />
     <None Include="Assets\50FishIcons\Reference.txt" />

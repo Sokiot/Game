@@ -5,31 +5,26 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-    public int health;
-    public int numOfHearts;
+    [SerializeField]
+    Text HealthNumber;
 
-    public Image[] life;
-    public Sprite Heart;
+    int CurrentHealth = 100;
+    const int maxHealth = 100;
 
-    // Update is called once per frame
-    void Update()
+    public void TakeDamage(int damage)
     {
-        for (int i = 0; i < life.Length; i++)
+        CurrentHealth -= damage;
+        CurrentHealth = Mathf.Clamp(CurrentHealth, 0, maxHealth);
+        if (CurrentHealth == 0)
         {
-            if (i < health)
-            {
-                life[i].sprite = Heart;
-                health = health - 1;
-            }
-
-            if (i < numOfHearts)
-            {
-                life[i].enabled = true;
-            }
-            else
-            {
-                life[i].enabled = false;
-            }
+            Death();
         }
+
+        HealthNumber.text = CurrentHealth.ToString();
+    }
+
+    public void Death()
+    {
+       
     }
 }
