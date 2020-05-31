@@ -12,7 +12,7 @@ public class SpawnFish : MonoBehaviour
     {
         SpawnArea = gameObject.GetComponent<BoxCollider2D>().bounds;
         Vector2 newPosition = Vector2.zero;
-        foreach(GameObject go in fish) //for each object
+        foreach(GameObject go in fish) //for each fish
         {
             go.transform.position = RandomPointInBounds();
         }

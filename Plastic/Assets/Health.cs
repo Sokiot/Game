@@ -8,6 +8,8 @@ public class Health : MonoBehaviour
     [SerializeField]
     Text HealthNumber;
 
+    public GameObject GameOver;
+
     int CurrentHealth = 100;
     const int maxHealth = 100;
 
@@ -25,6 +27,6 @@ public class Health : MonoBehaviour
 
     public void Death()
     {
-       
+        //GameOver.SetActive(false);
     }
 }
