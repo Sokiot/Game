@@ -1,13 +1,16 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ColorBlindFilter
     - DamageController
     - Health
     - HealthController
     - PlayerMovement
     - RandomDamage
+    - RandomDamageToxic
     - SceneLoader
     - SpawnFish
+    - SpawnToxic
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -23,10 +26,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -73,29 +74,35 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9726}
+      Script: {instanceID: 9728}
     - Class: 114
-      Script: {instanceID: 9756}
+      Script: {instanceID: 9758}
     - Class: 114
-      Script: {instanceID: 9926}
+      Script: {instanceID: 9928}
     - Class: 114
-      Script: {instanceID: 9976}
+      Script: {instanceID: 9978}
     - Class: 114
-      Script: {instanceID: 10390}
+      Script: {instanceID: 10394}
     - Class: 114
-      Script: {instanceID: 10478}
+      Script: {instanceID: 10482}
     - Class: 114
-      Script: {instanceID: 10496}
+      Script: {instanceID: 10500}
     - Class: 114
-      Script: {instanceID: 11308}
+      Script: {instanceID: 11206}
     - Class: 114
-      Script: {instanceID: 11508}
+      Script: {instanceID: 11314}
     - Class: 114
-      Script: {instanceID: 11770}
+      Script: {instanceID: 11514}
     - Class: 114
-      Script: {instanceID: 11882}
+      Script: {instanceID: 11776}
     - Class: 114
-      Script: {instanceID: 11958}
+      Script: {instanceID: 11888}
+    - Class: 114
+      Script: {instanceID: 11964}
+    - Class: 114
+      Script: {instanceID: 16010}
+    - Class: 114
+      Script: {instanceID: 16706}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -148,45 +155,47 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9726}
+      Script: {instanceID: 9728}
     - Class: 114
-      Script: {instanceID: 9772}
-    - Class: 114
-      Script: {instanceID: 9866}
+      Script: {instanceID: 9774}
     - Class: 114
       Script: {instanceID: 9868}
     - Class: 114
-      Script: {instanceID: 9938}
+      Script: {instanceID: 9870}
     - Class: 114
-      Script: {instanceID: 9966}
+      Script: {instanceID: 9940}
     - Class: 114
-      Script: {instanceID: 9976}
+      Script: {instanceID: 9968}
     - Class: 114
-      Script: {instanceID: 10192}
+      Script: {instanceID: 9978}
     - Class: 114
-      Script: {instanceID: 10478}
+      Script: {instanceID: 10194}
     - Class: 114
-      Script: {instanceID: 10510}
+      Script: {instanceID: 10276}
     - Class: 114
-      Script: {instanceID: 10888}
+      Script: {instanceID: 10482}
     - Class: 114
-      Script: {instanceID: 10954}
+      Script: {instanceID: 10514}
+    - Class: 114
+      Script: {instanceID: 10892}
+    - Class: 114
+      Script: {instanceID: 10958}
     - Class: 114
       Script: {instanceID: 11206}
     - Class: 114
-      Script: {instanceID: 11224}
+      Script: {instanceID: 11212}
     - Class: 114
-      Script: {instanceID: 11328}
+      Script: {instanceID: 11230}
     - Class: 114
-      Script: {instanceID: 11432}
+      Script: {instanceID: 11334}
     - Class: 114
-      Script: {instanceID: 11508}
+      Script: {instanceID: 11438}
     - Class: 114
-      Script: {instanceID: 11704}
+      Script: {instanceID: 11514}
     - Class: 114
-      Script: {instanceID: 11958}
+      Script: {instanceID: 11710}
     - Class: 114
-      Script: {instanceID: 15460}
+      Script: {instanceID: 11964}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -412,6 +421,12 @@ ScriptsOnlyBuild:
     className: TransitionArmModel
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneLoader
+  - hash:
+      serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -608,6 +623,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: fdcd4b3d0e9cdf06701847447ca80732
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ColorBlindFilter
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -844,7 +865,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+      Hash: 62e26739982190612879b1f32b92c56e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Movement
@@ -853,7 +874,13 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: SceneLoader
+    className: RandomDamageToxic
+  - hash:
+      serializedVersion: 2
+      Hash: 8f9960bd7f6a17b2fb2cacf7cd659e85
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnToxic
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     Rigidbody2D rb;
+    public Animator anim;
     //[SerializeField]
     public float speed = 500f; //was 500f at the start
     //private Vector2 direction;

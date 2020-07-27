@@ -14,12 +14,12 @@ public class RandomDamage : MonoBehaviour
 
             if (rand.Next(0, 2) == 0)
             {
-                HealthController.TakeDamage(20);
+                HealthController.TakeDamage(5);
             }
 
             else
             {
-                HealthController.TakeDamage(-15);
+                HealthController.TakeDamage(-10);
             }
 
             this.gameObject.SetActive(false);

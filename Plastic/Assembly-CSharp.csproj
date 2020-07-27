@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\colorblind\ColorBlindFilter.cs" />
     <Compile Include="Assets\ProgressBar\Scene\Demo.cs" />
     <Compile Include="Assets\ProgressBar\Script\ProgressBar.cs" />
     <Compile Include="Assets\ProgressBar\Script\ProgressBarCircle.cs" />
@@ -75,12 +76,15 @@
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\RandomDamage.cs" />
+    <Compile Include="Assets\Scripts\RandomDamageToxic.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\SpawnFish.cs" />
+    <Compile Include="Assets\Scripts\SpawnToxic.cs" />
     <Compile Include="Assets\UnderwaterFantasy\Scripts\Done_BGScroller.cs" />
     <Compile Include="Assets\UnderwaterFantasy\Scripts\Perspective2DSortMode.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\ARISAN\100 Alchemy item icons-free\item_name.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\kenney_fishpack\Spritesheet\fishSpritesheet@2.xml" />
@@ -88,6 +92,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\colorblind\ChannelMixer.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\kenney_fishpack\Spritesheet\fishSpritesheet.xml" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
