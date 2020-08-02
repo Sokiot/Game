@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -31,7 +32,8 @@ public class Health : MonoBehaviour
         {
             //Death();
             maxHealth = 0;
-            GameOver.GetComponent<Image>().enabled = true;// GameOver image appears when the seagull reaches 0 health.
+            //GameOver.GetComponent<Image>().enabled = true;// GameOver image appears when the seagull reaches 0 health.
+            SceneManager.LoadScene("Quit");
         }
 
         HealthNumber.text = CurrentHealth.ToString();

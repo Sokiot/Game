@@ -447,7 +447,7 @@ RectTransform:
   m_Children:
   - {fileID: 1608989754}
   m_Father: {fileID: 1596255237}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -677,12 +677,12 @@ RectTransform:
   m_Children:
   - {fileID: 1326499105}
   m_Father: {fileID: 1596255237}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 185.4, y: 540.7}
-  m_SizeDelta: {x: 257, y: 48.1}
+  m_AnchoredPosition: {x: 634, y: 266}
+  m_SizeDelta: {x: 444.8, y: 83.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &377637178
 GameObject:
@@ -815,10 +815,10 @@ MonoBehaviour:
   m_margin: {x: -0.000030517578, y: 0, z: -0.00012207031, w: -1.2792816}
   m_textInfo:
     textComponent: {fileID: 377637180}
-    characterCount: 410
+    characterCount: 414
     spriteCount: 0
-    spaceCount: 69
-    wordCount: 69
+    spaceCount: 70
+    wordCount: 70
     linkCount: 0
     lineCount: 7
     pageCount: 1
@@ -2053,12 +2053,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1420933498}
-  m_Father: {fileID: 1596255237}
-  m_RootOrder: 2
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 634, y: 264.35}
+  m_AnchoredPosition: {x: 639.5, y: 270.35}
   m_SizeDelta: {x: 444.8, y: 83.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1066558321
@@ -2293,8 +2293,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.4, y: -1.3633}
-  m_SizeDelta: {x: 276.1, y: 69.008}
+  m_AnchoredPosition: {x: 0, y: -1.3633}
+  m_SizeDelta: {x: 444.8, y: 69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1326499106
 MonoBehaviour:
@@ -2314,7 +2314,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Information
+  m_text: About The Game
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2342,8 +2342,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2380,13 +2380,13 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -0.000061035156, w: 0}
   m_textInfo:
     textComponent: {fileID: 1326499106}
-    characterCount: 11
+    characterCount: 14
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 1
+    spaceCount: 2
+    wordCount: 3
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -2538,13 +2538,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1420933499}
-    characterCount: 7
+    characterCount: 0
     spriteCount: 0
     spaceCount: 0
-    wordCount: 1
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -2596,9 +2596,8 @@ Transform:
   m_LocalPosition: {x: -634, y: -306, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 230209927}
   - {fileID: 1791769761}
-  - {fileID: 1066558320}
+  - {fileID: 230209927}
   - {fileID: 195114747}
   m_Father: {fileID: 1198932421}
   m_RootOrder: 0
@@ -2822,7 +2821,7 @@ RectTransform:
   m_Children:
   - {fileID: 23609617}
   m_Father: {fileID: 1596255237}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
