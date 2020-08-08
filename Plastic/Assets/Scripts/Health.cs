@@ -20,7 +20,7 @@ public class Health : MonoBehaviour
     public void Start()
     {
         //GameOver = GameObject.FindWithTag("GameOver");
-        GameOver.GetComponent<Image>().enabled = false; //GameOver image does not appear at the start of the game.
+        //GameOver.GetComponent<Image>().enabled = false; //GameOver image does not appear at the start of the game.
     }
 
     public void TakeDamage(int damage)

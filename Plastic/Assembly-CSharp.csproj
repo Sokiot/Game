@@ -67,6 +67,7 @@
     <Compile Include="Assets\ProgressBar\Script\ProgressBar.cs" />
     <Compile Include="Assets\ProgressBar\Script\ProgressBarCircle.cs" />
     <Compile Include="Assets\Scripts\DamageController.cs" />
+    <Compile Include="Assets\Scripts\FishMove.cs" />
     <Compile Include="Assets\Scripts\FishPicker.cs" />
     <Compile Include="Assets\Scripts\FishPickup.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\SpawnFish.cs" />
     <Compile Include="Assets\Scripts\SpawnToxic.cs" />
+    <Compile Include="Assets\Scripts\ToxicMove.cs" />
     <Compile Include="Assets\UnderwaterFantasy\Scripts\Done_BGScroller.cs" />
     <Compile Include="Assets\UnderwaterFantasy\Scripts\Perspective2DSortMode.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
