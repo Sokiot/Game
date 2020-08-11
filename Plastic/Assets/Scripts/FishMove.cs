@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class FishMove : MonoBehaviour
 {
-    //Bounds Area;
     private bool moveLeft = true;
     private float moveTime = 7f;
     private float vRange = 0.001f;
